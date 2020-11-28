@@ -2,6 +2,8 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=asavan)](https://asavan.github.io/)
 
+![Demo](/images/car.svg)
+
 <!--
 **asavan/asavan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
