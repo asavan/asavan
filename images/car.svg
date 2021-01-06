@@ -20,10 +20,12 @@
 </g>
    
   <animateMotion 
+           id="motionAnimation"
            xlink:href="#car"
            dur="3s"
-           begin="logoSVG.mouseover"
+           begin="car.mouseover; 7s"
            fill="freeze"
+           restart="whenNotActive"
            rotate="auto-reverse"
              >
     <mpath xlink:href="#motionPath" />
@@ -34,15 +36,16 @@
                 attributeName="transform"
                 type="translate"
                 to="-234.4, -182.8"
-                dur="0.01s"
+                dur="1ms"
                 fill="freeze"
-                begin="logoSVG.mouseover"/>
+                restart="never"
+                begin="motionAnimation.begin"/>
                 
                 
    <animate attributeName="fill" attributeType="XML"
         xlink:href="#car"
-        begin="logoSVG.mouseover"
-        from="black" to="red" dur="0.01s" fill="freeze"/>
+        begin="motionAnimation.begin"
+        restart="never"
+        from="black" to="red" dur="1ms" fill="freeze"/>
 
   </svg>
-  
