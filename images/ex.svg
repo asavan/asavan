@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+
+   <rect width="100" height="100" fill="blue" opacity="0.5">
+     <animate id="in1" attributeName="opacity" begin="mouseover"  
+end="mouseout" dur="0.25s" to="1" fill="freeze"/>
+     <animate id="out1" attributeName="opacity" begin="in1.endEvent"  
+to="0.5" dur="0.25s"/>
+   </rect>
+   <rect width="100" height="100" fill="green" x="110" opacity="0.5">
+     <animate id="in2" attributeName="opacity" begin="mouseover"  
+end="mouseout" dur="0.25s" to="1" fill="freeze"/>
+     <animate id="out2" attributeName="opacity" begin="in2.endEvent"  
+to="0.5" dur="0.25s"/>
+   </rect>
+</svg>

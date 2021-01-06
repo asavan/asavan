@@ -22,7 +22,7 @@
   <animateMotion 
            xlink:href="#car"
            dur="3s"
-           begin="car.mouseover"
+           begin="logoSVG.mouseover"
            fill="freeze"
            rotate="auto-reverse"
              >
@@ -36,12 +36,12 @@
                 to="-234.4, -182.8"
                 dur="0.01s"
                 fill="freeze"
-                begin="car.mouseover"/>
+                begin="logoSVG.mouseover"/>
                 
                 
    <animate attributeName="fill" attributeType="XML"
         xlink:href="#car"
-        begin="car.mouseover"
+        begin="logoSVG.mouseover"
         from="black" to="red" dur="0.01s" fill="freeze"/>
 
   </svg>
