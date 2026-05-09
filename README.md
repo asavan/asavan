@@ -1,10 +1,11 @@
 ### 👋 Looking for somthing cool? Hover over car
 
-[![Top Langs](https://github-readme-stats.shion.dev/api/top-langs/?username=asavan)](https://asavan.github.io/)   [![Demo](/images/car.svg)](https://asavan.github.io/)
+[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=asavan)](https://asavan.github.io/)   [![Demo](/images/car.svg)](https://asavan.github.io/)
 
 <!--
 https://github.com/marketplace/actions/github-readme-stats-action
 
+https://github-readme-stats.shion.dev/api/top-langs/?username=asavan
 https://github-readme-stats.vercel.app
 
 https://github-readme-stats-fast.vercel.app/api/top-langs/?username=asavan&layout=compact
